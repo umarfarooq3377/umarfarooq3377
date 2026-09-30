@@ -313,9 +313,11 @@
 
 <br/>
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=umarfarooq3377&theme=tokyonight" alt="GitHub Profile Summary" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=umarfarooq3377&show_icons=true&theme=tokyonight&hide_border=false&border_color=1e293b&bg_color=0b111e&title_color=00f0ff&icon_color=38bdf8&text_color=cbd5e1" height="175" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=umarfarooq3377&layout=compact&theme=tokyonight&hide_border=false&border_color=1e293b&bg_color=0b111e&title_color=00f0ff&text_color=cbd5e1" height="175" alt="Top Languages" />
+</p>
 
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider" />
