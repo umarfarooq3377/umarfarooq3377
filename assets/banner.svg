@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="auto">
+  <defs>
+    <!-- Luxury Obsidian Background Gradient -->
+    <linearGradient id="luxuryBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06090e"/>
+      <stop offset="40%" stop-color="#0b111e"/>
+      <stop offset="85%" stop-color="#0d192e"/>
+      <stop offset="100%" stop-color="#08101f"/>
+    </linearGradient>
+
+    <!-- Cyan Neon Shimmer Gradient -->
+    <linearGradient id="cyanShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Glass Border Gradient -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.15"/>
+      <stop offset="80%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Ambient Glow Mesh -->
+    <radialGradient id="meshGlowCyan" cx="88%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="meshGlowIndigo" cx="12%" cy="85%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Minimalist Dot Grid Pattern -->
+    <pattern id="dotGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="1" fill="#94a3b8" fill-opacity="0.08"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+      font-size: 54px;
+      font-weight: 800;
+      letter-spacing: -1.2px;
+      fill: #ffffff;
+    }
+    .title-accent {
+      fill: #00f0ff;
+    }
+    .role-badge {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      fill: #38bdf8;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+      font-size: 21px;
+      font-weight: 500;
+      letter-spacing: -0.2px;
+      fill: #e2e8f0;
+    }
+    .meta-tag {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 13.5px;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      fill: #94a3b8;
+    }
+    .highlight-pill {
+      fill: rgba(0, 240, 255, 0.08);
+      stroke: rgba(0, 240, 255, 0.3);
+      stroke-width: 1;
+    }
+  </style>
+
+  <!-- Card Canvas Background -->
+  <rect width="1200" height="280" rx="20" fill="url(#luxuryBg)"/>
+
+  <!-- Subtle Dot Grid -->
+  <rect width="1200" height="280" rx="20" fill="url(#dotGrid)"/>
+
+  <!-- Ambient Luxury Glow -->
+  <rect width="1200" height="280" rx="20" fill="url(#meshGlowCyan)"/>
+  <rect width="1200" height="280" rx="20" fill="url(#meshGlowIndigo)"/>
+
+  <!-- Luxury Geometric Minimalist Facet Lines -->
+  <g opacity="0.4">
+    <path d="M 880 0 L 1200 0 L 1200 280 L 1020 280 Z" fill="#00f0ff" fill-opacity="0.03"/>
+    <line x1="880" y1="0" x2="1020" y2="280" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.25"/>
+    <line x1="940" y1="0" x2="1080" y2="280" stroke="#38bdf8" stroke-width="0.75" stroke-dasharray="6 6" stroke-opacity="0.2"/>
+  </g>
+
+  <!-- Luxury Outer Frame with Gradient Border -->
+  <rect x="1" y="1" width="1198" height="278" rx="19" fill="none" stroke="url(#borderGradient)" stroke-width="1.2"/>
+
+  <!-- Left Content Block -->
+  <g transform="translate(65, 48)">
+    
+    <!-- Pulsing Radar Status Pill -->
+    <g transform="translate(0, 0)">
+      <rect width="265" height="28" rx="14" class="highlight-pill"/>
+      
+      <!-- Pulsing Beacon Animation -->
+      <circle cx="16" cy="14" r="4.5" fill="#00f0ff"/>
+      <circle cx="16" cy="14" r="4.5" fill="none" stroke="#00f0ff" stroke-width="1.5">
+        <animate attributeName="r" values="4.5;13;17" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0.3;0" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+
+      <text x="32" y="18.5" class="role-badge">SOFTWARE ENGINEER · SAAS</text>
+    </g>
+
+    <!-- Main Name Title with Glowing Accent Dot -->
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" class="title">Umar Farooq<tspan class="title-accent">.</tspan></text>
+    </g>
+
+    <!-- Subtitle -->
+    <g transform="translate(0, 114)">
+      <text x="0" y="0" class="subtitle">Full Stack Engineer · SaaS Architect &amp; Automation Developer</text>
+    </g>
+
+    <!-- Tech Stack Monospace Meta Line -->
+    <g transform="translate(0, 148)">
+      <!-- Sleek bullet divider line -->
+      <line x1="0" y1="-8" x2="480" y2="-8" stroke="url(#cyanShimmer)" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="0" y="8" class="meta-tag">
+        <tspan fill="#38bdf8">React.js</tspan>
+        <tspan fill="#64748b"> · </tspan>
+        <tspan fill="#f1f5f9">Node.js</tspan>
+        <tspan fill="#64748b"> · </tspan>
+        <tspan fill="#f1f5f9">TypeScript</tspan>
+        <tspan fill="#64748b"> · </tspan>
+        <tspan fill="#00f0ff">Amazon SP-API</tspan>
+        <tspan fill="#64748b"> · </tspan>
+        <tspan fill="#f1f5f9">Fastify</tspan>
+        <tspan fill="#64748b"> · </tspan>
+        <tspan fill="#38bdf8">AWS</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Luxury Orbital Radar with Smooth Rotating Satellites -->
+  <g transform="translate(1040, 140)">
+    <!-- Outer Fixed Dotted Ring -->
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 5" stroke-opacity="0.25"/>
+
+    <!-- Middle Glowing Accent Ring -->
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#00f0ff" stroke-width="1.2" stroke-opacity="0.35"/>
+
+    <!-- Counter-Rotating Middle Ring -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="22s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#6366f1" stroke-width="1" stroke-dasharray="6 8" stroke-opacity="0.4"/>
+      <circle cx="42" cy="0" r="3" fill="#6366f1"/>
+      <circle cx="-42" cy="0" r="2.5" fill="#818cf8"/>
+    </g>
+
+    <!-- Outer Orbital Satellite System (Clockwise Rotation) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="14s" repeatCount="indefinite"/>
+      <!-- Primary Satellite -->
+      <circle cx="78" cy="0" r="5" fill="#00f0ff" filter="url(#neonGlow)"/>
+      <circle cx="78" cy="0" r="3" fill="#ffffff"/>
+      <!-- Trailing Satellite -->
+      <circle cx="-55" cy="55" r="3" fill="#38bdf8" opacity="0.8"/>
+      <!-- Third Minor Node -->
+      <circle cx="-20" cy="-75" r="2" fill="#a5f3fc" opacity="0.6"/>
+    </g>
+
+    <!-- Core Luxury Glowing Node -->
+    <circle cx="0" cy="0" r="26" fill="#0284c7" fill-opacity="0.2" stroke="#00f0ff" stroke-width="1.5" stroke-opacity="0.6">
+      <animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="0" cy="0" r="14" fill="#00f0ff" fill-opacity="0.3"/>
+    <circle cx="0" cy="0" r="7" fill="#00f0ff" filter="url(#neonGlow)"/>
+    <circle cx="0" cy="0" r="4" fill="#ffffff"/>
+  </g>
+</svg>
