@@ -25,7 +25,7 @@
 <table border="0" width="100%">
   <tr>
     <td width="22%" align="center" valign="middle" style="padding: 16px 14px;">
-      <img src="https://avatars.githubusercontent.com/u/93038874?v=4" width="145px" alt="Umar Farooq" style="border-radius: 50%; border: 2.5px solid #00F0FF; box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);" />
+      <img src="assets/avatar.svg" width="155px" alt="Umar Farooq" />
       <br/><br/>
       <b style="font-size: 16px; color: #FFFFFF;">Umar Farooq</b><br/>
       <span style="color: #38BDF8; font-size: 13px; font-weight: 600;">Software Engineer</span><br/>
