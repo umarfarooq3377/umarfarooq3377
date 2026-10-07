@@ -35,7 +35,7 @@
     <td width="78%" valign="top" style="padding: 16px 20px;">
       <p style="margin-top: 0; font-size: 15px; line-height: 1.65; color: #F1F5F9;">
         Hey, I'm Umar 👋<br/>
-        I'm a <b>Full Stack Engineer</b> at <a href="http://parallelloop.io/"><b>Parallel Loop</b></a> with 3+ years of experience engineering production SaaS platforms, business automation engines, and scalable web architectures — from low-latency databases up to responsive UIs.
+        I'm a <b>Full Stack Engineer</b> at <a href="http://parallelloop.io/"><b>Parallel Loop</b></a> with 3+ years of experience engineering production SaaS platforms, business automation engines, and scalable web architectures from low-latency databases up to responsive UIs.
       </p>
       <p style="font-size: 14.5px; line-height: 1.65; color: #CBD5E1;">
         My core production stack centers on <b>React.js</b>, <b>Node.js</b>, <b>TypeScript</b>, <b>GraphQL</b>, and <b>Fastify</b> backed by <b>MongoDB</b> and <b>PostgreSQL</b> on <b>AWS</b>. I manage the entire software lifecycle: architecting type-safe schemas, engineering high-throughput queue processors, and deploying mission-critical integrations such as <b>Amazon SP-API</b>.
