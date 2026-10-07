@@ -20,7 +20,7 @@
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 👨‍💻 About Me
+### About Me
 
 <table border="0" width="100%">
   <tr>
@@ -109,7 +109,7 @@
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 🧰 Technology Arsenal
+### Technology Arsenal
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,python,react,nextjs,angular,nodejs,express,fastify,mongodb,postgres,graphql,redux,tailwind,materialui,aws,docker,git,github,html,css&perline=11" alt="Tech Stack Icons" />
@@ -155,9 +155,9 @@
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 💼 Featured Architecture & Production Builds
+<!-- Featured Architecture & Production Builds — hidden until updated
+### Featured Architecture & Production Builds
 
-<!-- Spacious Cards With Generous Padding & Comfortable Layout -->
 <table width="100%" style="width: 100%; border-collapse: collapse;">
   <tr>
     <td width="50%" valign="top" style="padding: 18px 22px;">
@@ -218,8 +218,9 @@
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
+-->
 
-### 📈 Career Experience
+### Career Experience
 
 <table width="100%">
   <tr>
@@ -284,7 +285,7 @@
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 🎓 Academic Background
+### Academic Background
 
 <table width="100%">
   <tr>
@@ -305,7 +306,7 @@
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 📊 Real-Time GitHub Telemetry
+### Real-Time GitHub Telemetry
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=umarfarooq3377&theme=tokyonight&background=0b111e&border=1e293b&stroke=00f0ff&ring=00f0ff&fire=00f0ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=38bdf8&sideLabels=38bdf8&dates=94a3b8" alt="GitHub Streak Stats" />
@@ -323,7 +324,7 @@
   <img src="assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 🤝 Connect & Collaborate
+### Connect & Collaborate
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Actively_Shipping_Code-161b22?style=flat-square&logo=codeforces&logoColor=00F0FF" alt="Status" />
